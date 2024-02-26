@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cloudinary": "^2.0.1",
+    "mongoose-aggregate-paginate-v2": "^1.0.7"
+  }
+}
