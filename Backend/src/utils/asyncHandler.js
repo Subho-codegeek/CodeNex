@@ -6,15 +6,4 @@ const asyncHandler = (requestHandler) => {
     }
 }
 
-// using try catch block
-// const asyncHandler = (fn) => async (req,res,next) => {
-//     try {
-//         await fn(req,res,next);
-//     } catch (error) {
-//         res.status(error.status||500).json({
-//             successs:false,message:error.message
-//         })
-//     }
-// }
-
 export {asyncHandler} //similar way of export asyncHandler
