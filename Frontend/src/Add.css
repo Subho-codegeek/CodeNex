@@ -1,0 +1,88 @@
+/* Add.css */
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .header p {
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .sign-form {
+    padding: 20px;
+  }
+  
+  .sign-form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .google-btn,
+  .github-btn {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .google-btn {
+    background-color: #4285f4;
+    color: #fff;
+  }
+  
+  .github-btn {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .sign-form form {
+    margin-bottom: 20px;
+  }
+  
+  .sign-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .sign-form input[type="text"],
+  .sign-form input[type="email"],
+  .sign-form input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .sign-form input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .sign-form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px 0
+  }
+
+  
